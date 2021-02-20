@@ -40,7 +40,7 @@ includeHTML("include.html")
          ),
 
     fluidRow(
-      textAreaInput("source_code", "Input your dply code here. The name of your data set needs to be \"dataset\" in the code below. You can delete the example code.", "dataset %>% summarise(n_rows = n())"),
+      textAreaInput("source_code", "Input your dplyr code here. The name of your data set needs to be \"dataset\" in the code below. You can delete the example code.", "dataset %>% summarise(n_rows = n())"),
       actionButton("translate", "Get translation"),
       textOutput("sql_code", container = span)
     )
