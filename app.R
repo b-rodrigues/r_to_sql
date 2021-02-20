@@ -6,7 +6,7 @@ library(data.table)
 options(shiny.maxRequestSize = 0.015*1024^2)
 
 ui <- dashboardPage(
-  dashboardHeader(title = "dply to SQL translator"),
+  dashboardHeader(title = "dplyr to SQL translator"),
   dashboardSidebar(
   
     
